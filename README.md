@@ -1,2 +1,2 @@
-# Prueba
-Esto es una prueba
+# Formulario-sencillo
+Formulario con botones javascript
