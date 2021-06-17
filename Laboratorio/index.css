@@ -1,0 +1,28 @@
+
+body {
+	margin-left:150px;
+	margin-right:350px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+h1 { 
+    text-align: center;
+	color: blue;
+	}
+legend {
+      background-color :red;
+	 color: white;
+	 }
+fieldset {
+	background-color: #00FFFF;
+	border:hidden;
+	border-radius:8px;
+}
+input {
+	background-color: #FFFF00;
+}
+button {
+	background-color:#C0C0C0;
+}
+

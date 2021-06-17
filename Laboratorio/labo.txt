@@ -1,0 +1,101 @@
+
+	a ver, te cuento lo que hice yo. Cada elemento del formulario en html tiene una id. Por ejemplo, imagina el de valoración de 1 a 5 se llama id=valoracion1a5
+[19:56]
+pues en JavaScript, tengo que capturar el valor que se le da a ese elemento. Creo una variable de JavaScript, por ejemplo "rango" y hago que el valor que tenga sea el del elemento del formulario
+[19:57]
+var rango = document.getElementById("valoracion1a5").value;(editado)
+[19:57]
+y luego creo la alerta para que me avise de ese valor
+NUEVO
+[19:58]
+recordad que tenéis que concatenar en la alerta, "has valorado con " + rango + "puntos"	 
+	   
+	     
+	    function MostrarValoración()
+{ 
+ var val= document.getElementById("valor").value;
+  alert ("Ha valorado con " + val+ " puntos");
+  }
+
+function mostrarCuenta()
+{
+  var pais= document.getElementById("país").value;
+    var iban= document.getElementById("ciban").value;
+    var ent= document.getElementById("entidad").value;
+    var suc= document.getElementById("sucursal").value;
+    var dc= document.getElementById("dc").value;
+    var cuent= document.getElementById("cuenta").value;
+
+   var ncuenta= document.getElementById("cuenta").value= (pais, iban, ent, suc, dc, cuent);
+	alert ("Le informamos que su cuenta bancaria es: " + pais+ iban+ ent+ suc+ dc+ cuent);
+}
+
+    var nd= new date("fecha")
+    var dias= ["Lunes", "Martes","Miércoles","Jueves","Viernes","Sábado","Domingo"];
+    var meses= ["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre",
+                "Noviembre","Diciembre"];
+    var año= ["2015","2016","2017","2018","2019","2020","2021","2022","2023"];
+
+function mostrarFecha()
+{           
+    var fecha= document.getElementById("fecha").value= dias[d.getDay()], meses=[d.getMonth()], año=[d.getYear()]
+	alert ("La fecha seleccionada es" + fecha);
+	
+	
+	
+	
+	
+	
+	
+	     function MostrarValoración()
+{ 
+ var val= document.getElementById("valor").value;
+  alert ("Ha valorado con " + val+ " puntos");
+  }
+
+function mostrarCuenta()
+{
+  var pais= document.getElementById("país").value;
+    var iban= document.getElementById("ciban").value;
+    var ent= document.getElementById("entidad").value;
+    var suc= document.getElementById("sucursal").value;
+    var dc= document.getElementById("dc").value;
+    var cuent= document.getElementById("cuenta").value;
+
+   var ncuenta= document.getElementById("cuenta").value= (pais, iban, ent, suc, dc, cuent);
+	alert ("Le informamos que su cuenta bancaria es: " + pais+ iban+ ent+ suc+ dc+ cuent);
+}
+
+function mostrarFecha()
+{ 
+  var nuevo= new Date ("fecha");
+  var dia1=  ("Lunes");
+    var dia2=("Martes");
+    var dia3= ("Miércoles");
+    var dia4= ("Jueves");
+    var dia5= ("Viernes");
+    var dia6= ("Sábado");
+    var dia7= ("Domingo");
+ var fecha= document.getElementById("fecha").value=(dia2);        
+	alert ("La fecha seleccionada es " +fecha);
+}
+	
+	
+	
+	
+function mostrarFecha()
+
+{ 
+   
+  var fecha= new Date( document.getElementById("fecha").value);
+  var dia = new Array("Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado");
+ 
+   
+	alert ("La fecha seleccionada es " + dia[fecha.getDay()]); 
+ 
+ 
+} 
+ 	
+
+	
+	
